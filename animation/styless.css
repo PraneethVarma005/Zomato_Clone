@@ -1,0 +1,32 @@
+a.custom-link {
+    display: inline-block;  
+    height: 320px;
+    width: 400px; 
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.online {
+    position: relative;
+    border-radius: 5px;  
+    top:-310px;
+}
+
+.order-section {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.427);
+    width: 398px;
+    background-color: white;
+    text-align: left;
+    top:-430px;
+}
+
+.zoom-container {
+    display:inline-block;
+    transition: transform 0.3s ease;
+}
+
+.zoom-container:hover {
+    transform: scale(1.05);
+}

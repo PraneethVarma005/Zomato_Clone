@@ -1,0 +1,399 @@
+.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    left:205px;
+    font-size: 15px;
+    
+}
+.navigation ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation li a {
+    color: white;
+    
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right:249px;
+    font-size: 20px;
+
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li a {
+    color: white;
+    padding: 50px 20px;
+}
+.text-overlay {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    
+    color: white; 
+   
+    font-size: 100px;
+    text-align: center;
+}
+
+.text1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 50px;
+    color: white; 
+    text-align: center;
+}
+
+.search-container {
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 700px;
+    height: 3rem; 
+    border-radius: 5px;
+    background-color: white;
+    top:35%;
+    left:22%;
+    
+
+}
+
+.pin{
+    position: absolute;
+    left: 0;
+}
+
+.location-icon {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+
+
+.search-image{
+    position: absolute;
+    top:17%;
+    left:34%;
+    z-index: 1 ;
+
+}
+.search-input {
+    position: absolute;
+    width: 60%;
+    height: 3rem;
+    font-size: 16px;
+    z-index: 1;
+    right: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+
+
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.place select {
+    position: absolute;
+    left: 0;
+    border: none;
+    
+}
+
+
+.online {
+    position: relative;
+    border-radius: 5px;  
+    top:130px;
+    left:160px;
+
+}
+
+.order-section {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.427);
+    width: 550px;
+    background-color: white;
+    text-align: left;
+    top:20px;
+    left: 160px;
+}
+
+a.custom {
+    display: inline-block;  
+    height: 270px;
+    width: 550px; 
+    top:404px;
+    left:160px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.zoom-container {
+    display:inline-block;
+    transition: transform 0.3s ease;
+}
+
+.zoom-container:hover {
+    transform: scale(1.05);
+}
+
+
+.dine {
+    position: relative;
+    border-radius: 5px;  
+    top:130px;
+    left:210px;
+
+}
+.dinein-section {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.427);
+    width: 550px;
+    background-color: white;
+    text-align: left;
+    top:20px;
+    left:210px;
+}
+
+a.custom1 {
+    display: inline-block;  
+    height: 320px;
+    width: 550px; 
+    top:413px;
+    left:210px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.zoom {
+    display:inline-block;
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+
+.collections h1 {
+    font-size: 36px; 
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: -10px;
+}
+
+.collections .content {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.collections p {
+    font-size: 24px; 
+    margin-right: 20px; 
+}
+
+.triangle-link {
+    font-size: 22px; 
+    color: #FF7E8B; 
+    text-decoration: none;
+}
+
+.triangle {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.Id1 {
+    position: relative;
+    left: 150px;
+}
+
+a.custom2 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id1 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.cust{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+
+
+.Id2 {
+    position: relative;
+    left: 480px;
+    top: -305px;
+}
+
+a.custom3 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id2 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.custo{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+
+.Id3 {
+    position: relative;
+    left: 800px;
+    top: -608px;
+
+    
+}
+
+a.custom3 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id3 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.custo{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+
+.Id4 {
+    position: relative;
+    left: 1120px;
+    top: -910px;
+
+}
+
+a.custom3 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id4 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.custo{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+.P1 {
+    margin-top: -900px;
+    margin-left: 150px;
+    font-size: 42px;
+}
